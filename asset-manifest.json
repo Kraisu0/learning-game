@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/learning-game/static/css/main.68e5df92.css",
+    "main.js": "/learning-game/static/js/main.398a8897.js",
+    "static/js/453.fe2f4468.chunk.js": "/learning-game/static/js/453.fe2f4468.chunk.js",
+    "index.html": "/learning-game/index.html",
+    "main.68e5df92.css.map": "/learning-game/static/css/main.68e5df92.css.map",
+    "main.398a8897.js.map": "/learning-game/static/js/main.398a8897.js.map",
+    "453.fe2f4468.chunk.js.map": "/learning-game/static/js/453.fe2f4468.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68e5df92.css",
+    "static/js/main.398a8897.js"
+  ]
+}

@@ -1,0 +1,203 @@
+Q: “Poufność” w kontekście bezpieczeństwa aplikacji internetowych to:
+A: ochrona danych przed odczytem i kopiowaniem przez osobę nieupoważnioną; zabezpieczenie przed możliwością zaprzeczenia autorstwa dokumentu lub zrealizowania konkretnego działania; ochrona danych przed usunięciem lub przypadkowymi bądź nieuprawnionymi zmianami; ochrona świadczonych usług przed zniekształceniem i uszkodzeniem
+C: 1
+
+Q: Podstawowe nagłówki serwera używane przez mechanizm CORS to:
+A: Access-Control-Allow-Headers; Access-Control-Request-Method; Access-Control-Allow-Methods; Access-Control-Allow-Origin
+C: 1,3,4
+
+Q: Protokół HTTP:
+A: jest protokołem klient-serwer; jest protokołem stanowym; nie jest protokołem; jest protokołem tekstowym
+C: 1,4
+
+Q: Aplikacja jest podatna na atak Cross-Site Scripting, jeśli:
+A: dołącza niezwalidowane dane wejściowe od użytkownika do renderowanej strony HTML; używa starych i słabych algorytmów kryptograficznych; przechowuje niezwalidowane dane wejściowe; używa SOAP w wersji < 1.2 
+C: 1,3
+
+Q: Identyfikator sesji powinien składać się jedynie z cyfr
+A: Prawda; Fałsz
+C: 2
+
+Q: XSLT to jeden z wektorów ataku typu Command Injection
+A: Prawda; Fałsz
+C: 1
+
+Q: Sposoby przeciwdziałania atakom XSS to
+A: filtrowanie danych przesyłanych przez użytkownika; unikanie wywołań funkcji typu exec() i system(); enkodowanie danych; stosowanie systemów szablonów z automatycznym enkodowaniem
+C: 1,3,4
+
+Q: Same Origin Policy
+A: uniemożliwia bezpieczne wykonywanie zapytań HTTP Cross-Origin; stanowi, że dwie aplikacje charakteryzujące się różnymi originami nie mogą używać swoich wzajemnych elementów; to podstawowy mechanizm obronny nowoczesnych przeglądarek; to standard RFC 3492 opisujący sposób postępowania z lokalizowanymi nazwami domen
+C: 2,3
+
+Q: Atak SQL Injection ERROR-based, to atak
+A: w którym potrzebne jest określenie ile kolumn ma oryginalne zapytanie; do którego przeprowadzenia wykorzystywana jest wartość warunku logicznego; w którym potrzebne jest skorzystanie z treści wyjątków zwracanych przez serwer; do którego przeprowadzenia może zostać wykorzystana funkcja cast w PostgresSQL lub extravalue w MySQL
+C: 3
+
+Q: Aby znaleźć podatność SQL Injection w aplikacji należy
+A: przeprowadzić próbę “ucieczki” z ciągu znaków; wykraść identyfikator sesji ofiary; wykonać dowolne proste wyrażenie arytmetyczne na wartości pola; wykorzystać możliwość sortowania danych do określenia np. nazw tabel
+C: 1,3,4
+
+Q: W narzędziu Burp, aby wysłać określone zapytanie kilkadziesiąt razy do serwera, bez konieczności ciągłego powrotu do przeglądarki można skorzystać z funkcji
+A: SEQUENCER; INTRUDER; COMPARER; DECODER
+C: 2
+
+Q: Klucz PBKDF
+A: to klucz w którym używany jest “pieprz”; może być generowany na przykład przez funkcję Bcrypt; jest jedną z metod utwardzania hasła; to jeden ze sposobów przechowywania haseł statycznych
+C: 2,4
+
+Q: Czas po którym sesja jest unieważniana w przypadku braku aktywności użytkownika i maksymalny czas życia sesji to to samo
+A: Prawda; Fałsz
+C: 2
+
+Q: Na pierwszym miejscu OWASP Top 10 z 2017 roku znajduje się podatność
+A: broken authentication; injection; cross-site scripting; security misconfiguration
+C: 2
+
+Q: Wybierz sformułowania pasujące do definicji bezpieczeństwa aplikacji internetowych
+A: bezpieczeństwo jest równoważone kosztami jego zapewnienia; bezpieczeństwo jest miarą a nie cechą czy właściwością; bezpieczeństwo jest pojęciem względnym; system jest bezpieczny jeśli chroni dane na których pracujemy przed nieautoryzowaną modyfikacją nieautoryzowanym dostęp może zostać pominięty
+C: 1,2,3
+
+Q: SOAP jest jednym ze standardów, które definiują jak klient ma się komunikować z serwerem, Zaznacz prawdziwe sformułowania opisujące ten standard.
+A: jest szybszy od REST’a; może działać z wykorzystaniem sesji; obsługuje format wymiany danych XML; może działać bezstanowo
+C: 2,3,4
+
+Q: Narzędzie Nmap służy do
+A: przechwytywania zapytań generowanych przez przeglądarki WWW; skanowania serwera bazy danych w celu poszukiwania podatności; skanowania podatności serwerów WWW; skanowania sieci w celu uzyskania informacji o systemie i usługach wystawionych na konkretny port
+C: 4
+
+Q: HTTP Public Key Pinning to
+A: nagłówek HTTP, który wymusza na przeglądarce używanie bezpiecznego połączenia; nagłówek, który chroni użytkownika przed atakiem MiTM przy pierwszej wizycie na stronie; nagłówek pozwalający witrynom włączać raportowanie i/lub egzekwowanie wymagać CT; sposób obrony przed nielegalnie wystawionym certyfikatem
+C: 4
+
+Q: Expect-CT to
+A: sposób ochrony przed nielegalnie wystawionymi certyfikatami; nagłówek, który chroni użytkownika przed atakiem MiTM przy pierwszej wizycie na stronie; nagłówek pozwalający witrynom włączać raportowanie i/lub egzekwowanie wymagać CT; nagłówek HTTP, który wymusza na przeglądarce używanie bezpiecznego połączenia
+C: 1,3
+
+Q: “Dostępność” w kontekście bezpieczeństwa aplikacji internetowych to:
+A: ochrona danych przed usunięciem lub przypadkowymi bądź nieuprawnionymi zmianami; ochrona danych przed odczytem i kopiowaniem przez osobę nieupoważnioną; ochrona świadczonych usług przed zniekształceniem i uszkodzeniem; zabezpieczenie przed możliwością zaprzeczenia autorstwa dokumentu lub zrealizowania konkretnego działania
+C: 3
+
+Q: Podstawowe nagłówki klienta używane przez mechanizm CORS to
+A: Access-Control-Request-Method; Access-Control-Request-Headers; Access-Control-Allow-Methods; Access-Control-Allow-Headers
+C: 1,2 
+
+Q: URL
+A: składa się z URN i URI; specjalny typ identyfikatora URI wskazujący na lokalizację obiektu który jest przetwarzany za pośrednictwem protokołu HTTP; to skrót od Uniform Resource Locator; w swojej budowie nie zawiera ani protokołu ani schematu
+C: 2,3
+
+Q: Project Application Security Verification Standard
+A: jest projektem zestawiającym 10 kluczowych obszarów zabezpieczeń które powinny być stosowane w oprogramowaniu; to nie projekt OWASP; jest projektem zestawiającym listę wymagań dla zabezpieczenia aplikacji lub jej testów; definiuje trzy poziomy weryfikacji zabezpieczeń 
+C: 3,4
+
+Q: Zaznacz prawidłowe sformułowania związane z protokołem SSL
+A: heartbleed to jedna z podatności zlokalizowana w bibliotece OpenSSL w wersji niższej niż 10.1; SSL służy tylko i wyłącznie do zabezpieczenia protokołu HTTPS; atak SSL Strip to rodzaj ataku Man-In-the-Middle; w protokole SSL używane mogą być tylko certyfikaty podpisane przez urzędy certyfikacji (CA)
+C: 3
+
+Q: Hasła statyczne mogą być przechowywane w postaci
+A: szyfrogramu; skrótu; tekstu jawnego; pliku binarnego
+C: 1,2,3
+
+Q: HTTP Parameter Pollution
+A: to metoda modyfikacji “query string”, polegająca na przesłaniu kilku takich samych nazw parametrów ale z różnymi wartościami; umożliwia ominięcie walidacji parametru; to metoda w której bez względu na webserwer czy język programowania reakcja webaplikacji będzie taka sama; to celowe zanieczyszczenie nazw parametrów znakami, które eg. standardu RFC3986 i RFC2396 mają w przypadku URL różne przeznaczenie
+C: 1,2
+
+Q: “Niezaprzeczalność” w kontekście bezpieczeństwa aplikacji internetowych to:
+A: ochrona danych przed odczytem i kopiowaniem przez osobę nieupoważnioną; ochrona świadczonych usług przed zniekształceniem i uszkodzeniem; ochrona danych przed usunięciem lub przypadkowymi bądź nieuprawnionymi zmianami; zabezpieczenie przed możliwością zaprzeczenia autorstwa dokumentu lub zrealizowania konkretnego działania
+C: 4
+
+Q: Atak Server-Site Request Forgery polega na
+A: zmuszeniu użytkownika do kliknięcia w przycisk lub link na innej stronie; wymuszeniu na zalogowanym użytkowniku wywołania niechcianej akcji w aplikacji; zmuszeniu serwera do zainicjowania pewnej komunikacji sieciowej; wstrzyknięciu własnej, dodatkowej treści do zapytania XPath
+C: 3
+
+Q: Exploit
+A: to zestaw operacji wykonywanych po udanym włamaniu się do systemu; program zawierający dane lub kod wykonywalny, który może wykorzystać jedną lub wiele luk w oprogramowaniu działającym na serwerze w celu przeprowadzenia atak; to skaner sieciowy wykorzystywany do skanowania sieci i portów; może być utworzony za pomocą platformy Metasploit
+C: 2,4
+
+Q: Sensitive Data Exposure, znajdująca się na liście OWASP Top Ten z 2017 roku, to jedna z podatności aplikacji internetowych, polegająca na
+A: niepoprawnej kontroli dostępu; ujawnieniu wrażliwych danych; stosowaniu niepoprawnego mechanizmu uwierzytelniania i zarządzania sesją; błędnej konfiguracji zabezpieczeń
+C: 2
+
+Q: Zaznacz prawidłowe sformułowania związane z zarządzaniem sesją w aplikacjach
+A: regeneracja identyfikatora sesji powinna być wykonywana przy każdej zmianie poziomu uprawnień użytkownika; najlepiej wykorzystać mechanizm zarządzania sesją wbudowany w wykorzystywany framework; najlepiej zaimplementować swój własny mechanizm zarządzania sesją; protokół HTTP jest bezstanowy dlatego nie jest potrzebne stosowanie mechanizmu zarządzania sesją
+C: 1,2
+
+Q: Atak CSRF może być realizowany
+A: zmuszenie serwera do zainicjowania pewnej komunikacji sieciowej; za pomocą metody POST; za pomocą metody GET; poprzez wstrzyknięcie dodatkowej treści do zapytania XPath
+C: 2,3
+
+Q: Jak można zapobiegać atakom typu Injection
+A: należy korzystać z narzędzi typu ORM; należy szyfrować wszystkie wrażliwe dane; należy korzystać z mechanizmów weryfikujących słabe hasła; należy używać bezpiecznego interfejsu API
+C: 1,4
+
+Q: Zaznacz zagrożenia bezpieczeństwa wynikające ze stosowania języka PHP
+A: szyfrowanie ciastek nie jest bezpieczne; używanie funkcji “include”; nad bezpieczeństwem czuwa całe środowisko uruchomieniowe CLR; stosowanie strategii “ignoruj błąd i idź dalej”
+C: 2,4
+
+Q: Atak SQL Injection UNION-based to atak, gdzie potrzebne jest
+A: określenie typów kolumn w zapytaniu oryginalnym; określenie ile kolumn na oryginalne zapytanie; określenie czy warunek logiczny w zapytaniu zwrócił prawdę; określenie treści wyjątków zwracanych przez serwer
+C: 1,2
+
+Q: Celem ataku Code Injection jest
+A: klient; klient lub serwer; serwer; aplikacja
+C: 2
+
+Q: Atak Session Fixation polega na
+A: uzyskaniu dostępu do istniejącej sesji użytkownika; skłonieniu użytkownika do użycia identyfikatora sesji zainicjowanej przez atakującego; regeneracji identyfikatora sesji po wylogowaniu użytkownika; wykradnięciu identyfikatora sesji ofiary
+C: 2
+
+Q: System NIDS/NIPS
+A: to system będący w stanie analizować ruch w całej sieci oraz spoza niej; to system monitorowania ograniczony do jednego hosta w sieci; jest systemem badającym integralność systemu; bazuje na analizie sygnatur oraz anomalii
+C: 1,4
+
+Q: Wybierz prawidłowe sformułowania związane z protokołem HTTP/2
+A: przeglądarki Chrome i Firefox akceptują wykorzystanie zwykłego TCP (HTTP/2 over plaintext) oraz TLS (h2) jeśli korzystamy z HTTP/2; istnieje możliwość działania HTTP/2 z wykorzystaniem zwykłego TCP (HTTP/2 over plaintext); przy komunikacji HTTP/2, aby wysłać kolejne żądanie HTTP danym połączeniem TCP, musimy poczekać na odpowiedź; do testowania protokołu HTTP/2 można skorzystać z narzędzia mitmproxy lub curl
+C: 2,4
+
+Q: URL jest specyficzny przypadkiem URI: Wybierz jedną odpowiedź:
+A: Prawda; Fałsz
+C: 1
+
+Q: Broken Access Control, znajdująca się na liście OWASP Top Ten z 2017 roku to jedna z podatności aplikacji internetowych polegająca na Wybierz wszystkie poprawne:
+A: stosowaniu niepoprawnego mechanizmu uwierzytelniania i zarządzania sesja; ujawnieniu wrażliwych danych; błędnej konfiguracji zabezpieczeń; niepoprawnej kontroli dostępu
+C: 4
+
+Q: System HIDS/HIPS Wybierz wszystkie poprawne:
+A: jest systemem badającym integralność systemu; to system monitorowania ograniczony do jednego hosta w sieci; to system będący w stanie analizować ruch w całej sieci oraz spoza niej; bazuje na analizie sygnatur oraz anomalii
+C: 1,2,4
+
+Q: CGI Wybierz wszystkie poprawne:
+A: to interfejs które zasada opiera się na tym, że gdy serwer WWW otrzymuje od klienta żądanie pobrania dokumentu, który jest odpowiednio oznaczonym plikiem wykonywalnym (np. poprzez rozszerzenie.cgi), to zamiast przesłać ten plik do klienta, wykonuje go w odpowiednio przygotowanym środowisk; to ataki polegające na wykorzystaniu języka skryptowego po stronie serwera, który pozwala na włączanie prostej dynamicznej zawartości na stronach WWW; to interfejs umożliwiający uruchamianie przez serwer www programów i przesyłanie wyniku ich działania do klienta przy użyciu protokołu HTTP; to skrót od Common Gateway Interface (CGI)
+C: 3,4
+
+Q: Tabnabbing polega na: Wybierz wszystkie poprawne:
+A: wymuszeniu na zalogowanym użytkowniku wywołania niechcianej akcji w aplikacji; zmuszeniu użytkownika do kliknięcia w przycisk lub link na innej stronie; podmianie zawartości strony internetowej podczas gdy użytkownik patrzy na stronę w innej zakładce przeglądarki; wykorzystaniu usług działających na lokalnym serwerze w celu wykonania niechcianej akcji
+C: 3
+
+Q: HTTP Strict Transport Security to Wybierz wszystkie poprawne:
+A: nagłówek, który chroni użytkownika przed atakiem MiTM przy pierwszej wizycie na stronie; nagłówek pozwalający witrynom włączać raportowanie i/lub egzekwowanie wymagań CT; sposób obrony przed nielegalnie wystawionymi certyfikatami; nagłówek HTTP, który wymusza na przeglądarce używanie bezpiecznego połączenia
+C: 4
+
+Q: Atak Session Hijacking polega na Wybierz wszystkie poprawne:
+A: regeneracji identyfikatora sesji po wylogowaniu użytkownika; skłonieniu użytkownika do użycia identyfikatora sesji zainicjowanej przez atakującego; adopcji sesji przez serwer, mimo, że nie została ona przez niego utworzona; wykradnięciu identyfikatora sesji ofiary
+C: 4
+
+Q: REST jest jednym ze standardów, które definiują jak klient ma się komunikować z serwerem, zaznacza prawidłowe sformułowania opisujące ten standard: Wybierz wszystkie poprawne:
+A: nie jest protokołem; jest protokołem; jest bezstanowy; jest stanowy
+C: 1,3
+
+Q: Sól dodawana do hasła Wybierz wszystkie poprawne:
+A: powinna być inna dla każdego hasła; powinna składać się z samych cyfr; może być taka sama dla wszystkich haseł; jest funkcją skrótu
+C: 1
+
+Q: Narzędzie Nikto służy do Wybierz wszystkie poprawne:
+A: skanowania podatności serwerów WWW; skanowania sieci w celu uzyskiwania informacji o systemie i usługach wystawionych na konkretnych portach; przechwytywania zapytań generowanych przez przeglądarki WWW; skanowania serwera bazy danych w celu poszukiwania podatności
+C: 1
+
+Q: Atak Cross-Site Request Forgery
+A: polega na wstrzyknięcie własnej, dodatkowej treści do zapytania XPath wykorzystując brak lub niepełną filtrację danych; może być zrealizowany zarówno w tej samej domenie jak i pomiędzy różnymi domenami; polega na wymuszeniu na zalogowanym użytkowniku wywołania niechcianej akcji w aplikacji; polega na zmuszeniu serwera do zainicjowania pewnej komunikacji sieciowej
+C: 2,3
+
+Q: Punycode służy do kodowania międzynarodowych nazw domen (IDN). Kodowanie wykorzystywane jest przez przeglądarki w celu identyfikacji m. in. ataków phishingowych
+A: Prawda; Fałsz
+C: 1
